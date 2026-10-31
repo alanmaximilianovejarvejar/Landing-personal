@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Tsuru nocturno: carrera urbana</title>
+  <desc id="desc">Clip animado original de un Tsuru negro tuneado derrapando en una avenida nocturna de neón.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#080b18"/><stop offset=".7" stop-color="#18223a"/><stop offset="1" stop-color="#542c45"/></linearGradient>
+    <linearGradient id="road" x2="0" y2="1"><stop stop-color="#272d3c"/><stop offset="1" stop-color="#090b12"/></linearGradient>
+    <linearGradient id="body" x2="0" y2="1"><stop stop-color="#343b49"/><stop offset=".48" stop-color="#10141d"/><stop offset="1" stop-color="#05070b"/></linearGradient>
+    <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#56cde2" stop-opacity=".8"/><stop offset="1" stop-color="#182a43"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#sky)"/>
+  <g opacity=".55">
+    <path d="M35 390V175h155v215M205 390V112h128v278M360 390V205h184v185M740 390V155h130v235M900 390V95h190v295M1110 390V190h135v200" fill="#101827" stroke="#27344c" stroke-width="5"/>
+    <g fill="#31dbeb" opacity=".72"><path d="M70 210h18v35H70zm44 0h18v35h-18zm44 0h18v35h-18zM235 150h16v35h-16zm42 0h16v35h-16zm42 0h16v35h-16zM930 130h18v35h-18zm45 0h18v35h-18zm45 0h18v35h-18z"/></g>
+    <g fill="#ff3680" opacity=".8"><path d="M390 240h20v42h-20zm52 0h20v42h-20zm52 0h20v42h-20zM1138 220h18v36h-18zm45 0h18v36h-18z"/></g>
+  </g>
+  <path d="M0 410 1280 410 1280 720 0 720Z" fill="url(#road)"/>
+  <path d="M630 410 650 410 825 720 455 720Z" fill="#d8d9df" opacity=".09"/>
+  <g fill="#ff347e" filter="url(#glow)" opacity=".85"><path d="M75 422h180v8H75zm920 0h220v8H995z"/></g>
+  <g fill="#ffe794" opacity=".9"><path d="M632 475h16v38h-16zm-35 92h12v55h-12zm65 0h12v55h-12z"/></g>
+  <g opacity=".5" filter="url(#blur)" stroke-linecap="round"><path d="M90 525h280M980 555h230M150 635h330M840 650h310" stroke="#fd3b87" stroke-width="7"/><path d="M90 542h240M980 570h250M140 652h400" stroke="#40ddf1" stroke-width="4"/></g>
+  <g class="car">
+    <ellipse cx="645" cy="580" rx="350" ry="42" fill="#000" opacity=".75"/>
+    <g opacity=".8" filter="url(#glow)"><path d="M360 543h-170" stroke="#ff376f" stroke-width="8"/><path d="M365 560h-250" stroke="#ff376f" stroke-width="4"/><path d="M930 542h185" stroke="#43e6fa" stroke-width="6"/></g>
+    <path d="M330 520 390 479Q435 458 515 447L591 390Q620 371 678 373L796 398Q842 410 884 457L947 489Q972 501 980 530L970 559 925 574H369L321 551Z" fill="url(#body)" stroke="#697487" stroke-width="4"/>
+    <path d="M447 466 526 455 592 402Q615 389 652 390L651 466Z" fill="url(#glass)" stroke="#10141b" stroke-width="7"/>
+    <path d="M670 390Q716 390 785 408L842 461 670 466Z" fill="url(#glass)" stroke="#10141b" stroke-width="7"/>
+    <path d="M654 389 661 475" stroke="#adb7c8" stroke-width="5" opacity=".6"/>
+    <path d="M406 477 872 477 922 502 397 502Z" fill="#202633" stroke="#7d899b" stroke-width="3"/>
+    <path d="M330 519 395 512 416 529 405 549 327 545Z" fill="#111721" stroke="#596477" stroke-width="4"/>
+    <path d="M925 497 970 507 965 531 924 530Z" fill="#fff1ba" filter="url(#glow)"/>
+    <path d="M326 525 380 522 377 542 327 540Z" fill="#ff245f" filter="url(#glow)"/>
+    <path d="M328 552 978 552 963 566 365 578 326 560Z" fill="#080a0e" stroke="#444d5b" stroke-width="3"/>
+    <path d="M382 570h590l-28 16H401z" fill="#ff2e83" opacity=".9" filter="url(#glow)"/>
+    <path d="M343 554 315 579 373 570M952 551 1007 572 966 574" fill="#080a0e" stroke="#626e80" stroke-width="5"/>
+    <path d="M426 510h440" stroke="#e3e7ed" stroke-width="3" opacity=".3"/>
+    <g><circle cx="451" cy="564" r="49" fill="#07090d" stroke="#9ba6b4" stroke-width="6"/><circle cx="451" cy="564" r="27" fill="#242c38" stroke="#e34691" stroke-width="6"/><circle cx="451" cy="564" r="8" fill="#aeb8c6"/><path d="M451 538v52m-25-26h50m-43-18 36 36m0-36-36 36" stroke="#aeb8c6" stroke-width="4"/></g>
+    <g><circle cx="851" cy="564" r="49" fill="#07090d" stroke="#9ba6b4" stroke-width="6"/><circle cx="851" cy="564" r="27" fill="#242c38" stroke="#e34691" stroke-width="6"/><circle cx="851" cy="564" r="8" fill="#aeb8c6"/><path d="M851 538v52m-25-26h50m-43-18 36 36m0-36-36 36" stroke="#aeb8c6" stroke-width="4"/></g>
+    <path d="M527 490h115v20H527z" fill="#10151d" stroke="#596477" stroke-width="3"/><text x="538" y="505" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#55e5f2" letter-spacing="3">TSURU</text>
+  </g>
+  <g class="smoke" fill="#a9b8c7" opacity="0"><circle cx="368" cy="579" r="18"/><circle cx="329" cy="589" r="25"/><circle cx="287" cy="598" r="32"/></g>
+  <text x="70" y="82" font-family="Arial,sans-serif" font-size="19" letter-spacing="7" fill="#68e6f2" opacity=".9">TOKYO • 02:17 AM</text>
+  <text x="70" y="127" font-family="Arial,sans-serif" font-size="13" letter-spacing="4" fill="#f2a7c8" opacity=".8">NIGHT RUN / ORIGINAL SCENE</text>
+  <text x="1207" y="670" text-anchor="end" font-family="Arial,sans-serif" font-size="12" letter-spacing="3" fill="#aab3c1" opacity=".6">LOOP • 8 SEC</text>
+  <style>
+    .car{transform-origin:650px 560px;animation: drift 8s cubic-bezier(.45,0,.25,1) infinite}
+    .smoke{animation: smoke 8s ease-out infinite}
+    @keyframes drift{0%,10%{transform:translate(-90px,20px) rotate(-2deg) scale(.88)}28%{transform:translate(10px,0) rotate(1deg) scale(1)}48%{transform:translate(42px,-8px) rotate(-1deg) scale(1.035)}68%{transform:translate(-5px,0) rotate(0) scale(1)}100%{transform:translate(-90px,20px) rotate(-2deg) scale(.88)}}
+    @keyframes smoke{0%,18%{opacity:0;transform:translate(0,0) scale(.5)}35%{opacity:.42;transform:translate(-22px,-10px) scale(1)}60%{opacity:.12;transform:translate(-78px,-28px) scale(1.35)}100%{opacity:0;transform:translate(0,0) scale(.5)}}
+  </style>
+</svg>

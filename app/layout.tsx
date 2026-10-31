@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alan Maximiliano Vejar Vejar | Desarrollador web freelance",
+  title: "Alan Vejar | Desarrollo web y soluciones a medida",
   description:
-    "Desarrollo sitios web y aplicaciones a la medida. Soy Alan Maximiliano Vejar Vejar, ingeniero de software full stack con experiencia en la Universidad Latina de América y proyectos freelance.",
+    "Landing pages, sitios con panel de administración y soluciones corporativas con Odoo. Conoce la experiencia y los proyectos de Alan Vejar.",
   openGraph: {
-    title: "Alan Maximiliano Vejar Vejar | Desarrollo web freelance",
-    description: "Sitios web rápidos, claros y hechos para tu negocio.",
+    title: "Alan Vejar | Desarrollo web y soluciones a medida",
+    description: "Landing pages, sitios con panel de administración y soluciones corporativas con Odoo.",
     locale: "es_MX",
     type: "website",
   },
